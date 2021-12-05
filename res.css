@@ -71,3 +71,9 @@
         width: 16ch;
     }
 }
+
+@media (max-width:915px) {
+    #search {
+        width: 17%;
+    }
+}
