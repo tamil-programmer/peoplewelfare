@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#heading {
+    text-align: center;
+}
+
+#main1,
+#div1,
+#div2 {
+    display: flex;
+}
+
+#main1 {
+    height: 50%;
+    width: 100%;
+}
+
+#div1,
+#div2 {
+    height: 100%;
+    width: 50%;
+}
+
+#whichdoyouwant {
+    display: block;
+}
+
+#whichdoyouwant button {
+    padding: 3px;
+    margin-left: 65px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(13, 110, 253)
+}
+
+.btn {
+    margin-top: 3%;
+    margin-left: 25%;
+    font-size: 20px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+    background-color: rgb(13, 110, 253)
+}
+
+.btn:hover {
+    background-color: rgb(12, 103, 235);
+}
+
+.btn:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#id_back:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#id_piechart:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#id_linechart:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#id_barchart:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#btn1 {
+    margin-left: 30%;
+}
+
+#btn3 {
+    margin-left: 10%;
+}
+
+#id_linechart,
+#id_barchart,
+#id_piechart {
+    margin-top: 3%;
+    margin-left: 20%;
+    font-size: 17px;
+    padding: 2px 20px 2px 20px;
+    color: white;
+    background-color: rgb(13, 110, 253)
+}
+
+#divbg {
+    background-image: url(../bg.jpg);
+}
+
+#id_hrr {
+    margin-top: 15px;
+    margin-bottom: -25px;
+}
+
+#map {
+    margin-left: 35%;
+}
+
+#id_back {
+    margin-left: 49%;
+    margin-top: -25px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(240, 41, 61);
+}
+
+#btn5 {
+    background-color: rgb(240, 41, 61);
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-size: 17px;
+}
+
+#id_back:hover {
+    background-color: rgb(180, 34, 49);
+}
+
+#btn5:hover {
+    background-color: rgb(180, 34, 49);
+}
+
+#id_black:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+#btn5:active {
+    transform: scale(0.9);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width:1058px) {
+    #btn3 {
+        margin-left: 20%;
+    }
+    #btn1 {
+        margin-left: 15%;
+    }
+    #id_piechart,
+    #id_linechart,
+    #id_barchart {
+        margin-left: 15%;
+    }
+    #map {
+        margin-left: 30%;
+    }
+    #id_back {
+        margin-left: 50%;
+    }
+}
+
+@media (max-width:900px) {
+    #btn3 {
+        margin-left: 15%;
+    }
+    #btn4 {
+        margin-left: 15%;
+    }
+    #btn2 {
+        margin-left: 15%;
+    }
+    #btn1 {
+        margin-left: 15%;
+    }
+    #id_piechart,
+    #id_linechart,
+    #id_barchart {
+        margin-left: 12%;
+    }
+    #map {
+        margin-left: 30%;
+    }
+    #id_back {
+        margin-left: 45%;
+    }
+    #id_hrr {
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width:700px) {
+    #id_piechart,
+    #id_linechart,
+    #id_barchart {
+        margin-left: 7%;
+    }
+}
+
+@media (max-width:680px) {
+    #map {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media (max-width:600px) {
+    h1 {
+        padding-left: 5%;
+    }
+    #backk {
+        margin-left: 48%;
+    }
+    #btn3 {
+        margin-left: 15%;
+    }
+    #btn4 {
+        margin-left: 10%;
+    }
+    #btn2 {
+        margin-left: 10%;
+    }
+    #btn1 {
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:530px) {
+    body {
+        width: 98%;
+    }
+    #id_piechart,
+    #id_linechart,
+    #id_barchart {
+        margin-left: 4%;
+    }
+    h1 {
+        padding-left: 5%;
+    }
+    #backk {
+        margin-left: 48%;
+    }
+    #btn3 {
+        margin-left: 5%;
+    }
+    #btn4 {
+        margin-left: 5%;
+    }
+    #btn2 {
+        margin-left: 7%;
+    }
+    #btn1 {
+        margin-left: 7%;
+    }
+}
+
+@media (max-width:483px) {
+    #id_piechart,
+    #id_linechart,
+    #id_barchart {
+        margin-left: 25%;
+    }
+    #btn3 {
+        margin-left: 5%;
+        padding: 0px;
+    }
+    #btn4 {
+        margin-left: 15%;
+        padding: 0px;
+    }
+    #btn2 {
+        margin-left: 15%;
+        padding: 0px;
+    }
+    #btn1 {
+        margin-left: 10%;
+        padding: 0px;
+    }
+}
+
+@media (max-width:400px) {
+    body {
+        width: 98%;
+    }
+}

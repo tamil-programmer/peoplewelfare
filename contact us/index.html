@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="icon" href="img/thumbnail.jpg" type="image/icon type">
+</head>
+<style>
+    #img {
+        border-radius: 50%;
+        margin: 1.6%;
+    }
+    
+    #footer {
+        text-align: center;
+        background-color: rgb(185, 185, 185);
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    @media (max-width:768px) {
+        #img {
+            margin: 3%;
+            width: 25%;
+            height: 25%;
+        }
+        #head {
+            display: block;
+        }
+    }
+    
+    @media (max-width:375px) {
+        #img {
+            margin: 3%;
+            width: 25%;
+            height: 25%;
+        }
+    }
+    
+    #head button {
+        margin-left: 46%;
+        margin-top: 2px;
+    }
+    
+    #head h2 {
+        text-align: center;
+        margin: 0;
+    }
+    
+    #heading {
+        text-align: center;
+        margin: 0px;
+        font-size: 30px;
+        text-decoration-line: underline;
+        margin-left: 35%;
+    }
+    
+    #btn:active {
+        transform: scale(0.9);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+    
+    #img:active {
+        transform: scale(0.9);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+    
+    #btn {
+        margin-left: 25%;
+        padding: 5px 10px;
+        background-color: rgb(24, 238, 24);
+        font-size: 20px;
+        border: 1px solid black;
+    }
+    
+    #btn:hover {
+        border: 2px solid black;
+        background-color: rgb(255, 23, 23);
+        color: rgb(255, 255, 255);
+    }
+    
+    #buttondiv {
+        width: 100%;
+        align-items: center;
+        margin: 0;
+    }
+    
+    @media (max-width:600px) {
+        #head button {
+            margin-left: 40%;
+        }
+    }
+    
+    #heading {
+        animation: blink 2s linear infinite;
+    }
+    
+    @keyframes blink {
+        0% {
+            color: rgb(17, 228, 17);
+        }
+        25% {
+            color: red;
+        }
+        50% {
+            color: black;
+        }
+        75% {
+            color: blue;
+        }
+        100% {
+            color: rgb(218, 18, 218);
+        }
+    }
+</style>
+
+<body>
+    <div id="head">
+        <h2 id="heading">Contact Us Through
+        </h2>
+        <div id="buttondiv">
+            <button onclick="back()" id="btn"> Go Back</button></div>
+    </div>
+    <a href="https://mail.google.com/mail/u/0/#inbox"><img id="img" src="img/Email.png" alt="" width="16%" height="16%"></a>
+    <a href="https://mail.google.com/mail/u/0/#inbox"><img id="img" src="img/mail.png" alt="" width="16%" height="16%"></a>
+    <a href="https://www.youtube.com/"><img id="img" src="img/youtube.png" alt="" width="16%" height="16%"></a>
+    <a href="https://suryaprogrammer.github.io/peoplewelfare.github.io/" target="_blank"> <img id="img" src="img/www.png" alt="" width="16%" height="16%"></a>
+    <a href="https://www.facebook.com/"><img id="img" src="img/face.png" alt="" width="16%" height="16%"></a>
+    <a href="#"><img id="img" src="img/tele.png" alt="" width="16%" height="16%"></a>
+    <a href="https://www.instagram.com/"><img id="img" src="img/insta.png" alt="" width="16%" height="16%"></a>
+    <a href="#"><img id="img" src="img/whatsapp.png" alt="" width="16%" height="16%"></a>
+    <a href="https://goo.gl/maps/stthKkyYt8Kvpbqz6"><img id="img" src="img/location.png" alt="" width="16%" height="16%"></a>
+    <a href="#"><img id="img" src="img/call.png" alt="" width="16%" height="16%"></a>
+
+
+
+    <footer id="footer">
+        &#169; copyright owned by surya 2021-2022
+    </footer>
+
+
+</body>
+
+<script>
+    function back() {
+        window.history.back();
+    }
+</script>
+
+</html>

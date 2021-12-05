@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <!-- chrat.js -->
+
+</head>
+
+<body>
+
+    <audio id="bell">
+    <source src="../sounds/noti.mp3" type="audio/mpeg">
+</audio>
+
+
+    <center>
+        <h1 id="heading">Choose from the following for data !!!</h1>
+    </center>
+
+
+    <center><button id="btn5" onclick="backk()">main back</button></center>
+    <div id="main1">
+
+        <div id="div1">
+
+            <button class="btn" id="btn1" onclick="bell(),student()">Students</button>
+            <button class="btn" id="btn2" onclick="bell(),staff()">Staff</button>
+        </div>
+        <div id="div2">
+            <button class="btn" id="btn3" onclick="bell(),worker()">worker</button>
+            <button class="btn" id="btn4" onclick="bell(),member()">Members</button>
+        </div>
+    </div>
+
+    <div id="div101">
+
+    </div>
+
+    <div id="map" style="width: 470px;height: 470px;">
+        <canvas id="goo"></canvas>
+    </div>
+    <div id="bac">
+
+
+    </div>
+
+
+
+
+    <script src="staff.js"></script>
+    <script src="script.js"></script>
+    <script src="member.js"></script>
+    <script src="worker.js"></script>
+
+    <script>
+        function backk() {
+            window.history.back();
+        }
+    </script>
+</body>
+
+
+</html>

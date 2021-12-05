@@ -1,0 +1,90 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+  
+  #btn {
+      margin-left: 47%;
+      background-color: white;
+      padding: 3px;
+      margin-top: 10px;
+  }
+  
+  #loader {
+      background-color: green;
+      height: 98vh;
+      position: relative;
+  }
+  
+  #l {
+      background-color: rgba(134, 1, 1, 0);
+      height: 250px;
+      width: 250px;
+      position: absolute;
+      top: 30%;
+      left: 45%;
+      border: 1.5rem solid black;
+      border-radius: 50%;
+      animation: ani 3s linear infinite;
+      border-top: 1.5rem solid chartreuse;
+  }
+  
+  @media (max-width:1600px) {
+      #l {
+          left: 40%;
+      }
+  }
+  
+  @media (max-width:1000px) {
+      #l {
+          left: 33%;
+      }
+  }
+  
+  @media (max-width:600px) {
+      #l {
+          left: 29%;
+          height: 200px;
+          width: 200px;
+      }
+  }
+  
+  @media (max-width:450px) {
+      #l {
+          left: 25%;
+          height: 200px;
+          width: 200px;
+      }
+  }
+  
+  @media (max-width:360px) {
+      #l {
+          left: 20%;
+          height: 130px;
+          width: 130px;
+      }
+  }
+  
+  @keyframes ani {
+      0% {
+          transform: rotate(0deg);
+          border-top: 1.5rem solid rgb(0, 255, 221);
+      }
+      25% {
+          transform: rotate(90deg);
+          border-top: 1.5rem solid rgb(255, 0, 34);
+      }
+      50% {
+          transform: rotate(180deg);
+          border-top: 1.5rem solid orange;
+      }
+      100% {
+          transform: rotate(360deg);
+          border-top: 1.5rem solid chartreuse;
+      }
+  }
+  
+  h2 {
+      text-align: center;
+      padding-top: 5rem;
+  }
