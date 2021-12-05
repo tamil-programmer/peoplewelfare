@@ -19,15 +19,19 @@ function myFunction(x) {
 
 
 
-function find(params) {
+function show(params) {
     document.getElementById("searchul").style.display = "block";
     // document.getElementById("searchul").style.borderTop = "3px solid black";
     // document.getElementById("textt").style.display = "none";
 
 
 }
+window.addEventListener('load', (event) => {
+    document.getElementById("searchul").style.display = "none";
 
-function findd(params) {
+});
+
+function hide(params) {
     document.getElementById("searchul").style.display = "none";
 
 }

@@ -88,3 +88,7 @@
       text-align: center;
       padding-top: 5rem;
   }
+  
+  .none {
+      display: none;
+  }

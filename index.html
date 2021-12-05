@@ -59,7 +59,7 @@
 
     <!-- <input type="search" name="search" id="search"> -->
 
-    <div id="sdiv"><input onkeyup="Function()" autocomplete="off" onclick="find()" type="search" name="search" placeholder="search here" id="search">
+    <div id="sdiv"><input onkeyup="Function()" autocomplete="off" onclick="show()" type="search" name="search" placeholder="search here" id="search">
         <div id="searchdrop">
             <ul id="searchul">
                 <li><a href="#"> Home</a></li>
@@ -101,8 +101,8 @@
         </datalist> </div> -->
 
 
-    <img onclick="findd()" id="headimg" src="img/mainschoolthumbnail.jpg" alt="school img">
-    <div id="bbbbb">
+    <img onclick="hide()" id="headimg" src="img/mainschoolthumbnail.jpg" alt="school img">
+    <div onclick="hide()" id="bbbbb">
         <div id="allbulb">
             <div id="forward">
                 <div><img id="bulb" src="gif/bulb.gif" alt=""></div>
@@ -113,7 +113,7 @@
         </div>
 
     </div>
-    <div id="slider">
+    <div onclick="hide()" id="slider">
         <figure id="slide">
             <img style="height: 100%; overflow: hidden;;" id="simg" src="wewe.jpg" alt="">
             <img style="height: 100%; overflow: hidden;" id="simg" src="wewe.jpg" alt="">
@@ -127,7 +127,7 @@
 
 
 
-    <footer>
+    <footer onclick="hide()">
         <div id="mainfoot">
             <div id="subfoot1">
                 <h2>Thanks for Visiting</h2>
