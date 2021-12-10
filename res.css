@@ -60,17 +60,6 @@
     }
 }
 
-@keyframes type {
-    0% {
-        width: 0ch;
-    }
-    50% {
-        color: rgb(3, 242, 250);
-    }
-    75% {
-        width: 16ch;
-    }
-}
 
 @media (max-width:915px) {
     #search {

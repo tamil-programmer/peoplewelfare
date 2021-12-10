@@ -187,8 +187,9 @@ figure {
 }
 
 #text {
+    
     font-size: 30px;
-    width: 0ch;
+    width: 19ch;
     overflow: hidden;
     white-space: nowrap;
     padding-top: 2px;
@@ -197,11 +198,35 @@ figure {
     -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.351));
     text-shadow: 1px 1px 1px rgba(208, 3, 195, 1);
 }
-
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    50% {
+        width: 19ch;
+        color: rgb(3, 242, 250);
+    }
+    100% {
+width: 0ch;
+    }
+}
+#bulbenddiv{
+    position: absolute;
+    margin-left: 15ch;
+    height: 600px;
+    width: auto;
+    z-index: 400;
+}
 #bulb {
     height: 100px;
 }
-
+#bulbend{
+    margin: 0;padding: 0;
+    height: 100px;
+    margin-top: -50px;
+    z-index: 50;
+ 
+}
 #search {
     margin: 15px;
     width: 50vh;
