@@ -45,12 +45,16 @@
         -webkit-transform: rotate(45deg) translate(-4px, 15px);
         transform: rotate(45deg) translate(-4px, -5px);
     }
-    #bulb {
+    #bulb,#bulbend {
         height: 70px;
     }
+    #bulbenddiv{
+        top: 48px;
+    }
     #text {
+        padding-top: 44px;
         font-size: 20px;
-        top: 18px;
+        top: 0px;
     }
     #search {
         z-index: 50;
@@ -58,6 +62,10 @@
     #search ul>li {
         z-index: 50;
     }
+
+
+
+
 }
 
 
@@ -66,3 +74,33 @@
         width: 70%;
     }
 }
+
+
+@media (max-width:444px) {
+    
+
+#allbulb{
+    margin-left: 35px;
+}
+
+
+}
+
+@media (max-width:300px) {
+    
+
+    #allbulb{
+        margin-left: 0px;
+    }
+    #bulb,#bulbend{
+        height: 60px;
+    }
+    
+#text{
+   padding-top: 40px;
+}
+#bulbenddiv{
+    top: 42px;
+}
+
+    }
